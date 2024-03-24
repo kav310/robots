@@ -11,6 +11,18 @@ To run the program, you can use the following command:
 
 This command will execute the `main.ts` file using `ts-node`, which compiles TypeScript code on-the-fly and runs it.
 
+## Grid Configuration
+
+You can adjust the size of the grid by modifying the `gridWidth` and `gridHeight` variables in the code:
+
+```typescript
+const gridWidth = 5;
+const gridHeight = 3;
+
+// Create a new grid
+const grid = new Grid(gridWidth, gridHeight);
+```
+
 ## Adding More Robots
 
 To add more robots to the simulation, you can modify the `robotsData` array in the `main.ts` file. Each element of the array represents a robot and includes its initial position, orientation, and instructions. You can add more objects to the array following the same format.
